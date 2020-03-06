@@ -1,0 +1,37 @@
+-*- mode: org -*-
+#+title: Aymara Libro de Mormon@@html:<br>@@Abdias Baldiviezo
+#+language: en
+#+options: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
+#+startup: entitiespretty showeverything
+#+setupfile: t:heme-bigblow.setup
+
+| espanol                   | aymara     | variaciones                                    |
+|---------------------------+------------+------------------------------------------------|
+| yo                        | naya       | nayajj                                         |
+| padres - padre            | awqui      | awquit, awquejjan                              |
+| conocimiento, ciencia     | yatjatawi  | yatiwi, yatiwinitwa, yatiwipatjja, yatinapampi |
+| libro, registro           | kellkatapa | kellkawi kilkatapa kellktwa                    |
+| bueno, hermoso            | suma       | sumaj                                          |
+| grande, largo o alto      | jach'a     |                                                |
+| inteligencia              | amuyt'a    | amuyat                                         |
+| hermana                   | kullaka    | kullakanaja                                    |
+| hermano                   | jilata     | jilatanaka                                     |
+| gracias                   | yuspayarpa | yuspagara                                      |
+| Dios, ser superior        | tatitu     | tatitui tatitun                                |
+| Senor                     | apu        |                                                |
+| yo posesivo               | uca        | urunacajjana, ucatwa, urunacajjansti           |
+| si                        | jisa       | jisa                                           |
+| no                        | janiwa     | janiwa                                         |
+| consiste,conforma,compone | ucasti     |                                                |
+| idioma, lengua            | aru        | arupampi                                       |
+| sucedio, acontecio        | ucatsti    |                                                |
+
+| nombre | nombre aymara | variaciones |
+|--------+---------------+-------------|
+| nefi   | nefejja       | nefin       |
+
+| reglas              | explicacion                       |
+|---------------------+-----------------------------------|
+| naka, naja          | plural, en lugar de S             |
+| adjetivo-sustantivo | igual al ingles adjetivos primero |
+| nacan               | despues de nacionalidades         |
