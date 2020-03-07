@@ -345,7 +345,7 @@ cursor somewhere in it, press the Enter key.
 | # | Signed:                                                        | C     | C          |
 | # | Abdias Baldiviezo                                              |       |            |
 |---+----------------------------------------------------------------+-------+------------|
-| # | Signed:                                                        | B-    |            |
+| # | Signed:                                                        | B     | B          |
 | # | Abdias Baldiviezo                                              |       |            |
 @@html:<br /><br /><br />@@
 @@latex:\pagebreak@@
