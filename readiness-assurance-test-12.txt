@@ -1,0 +1,60 @@
+-*- mode: org -*-
+#+title: Readiness Assurance Test 12
+#+options: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
+#+startup: entitiespretty
+#+setupfile: theme-bigblow.setup
+
+   Take this as a team. Enter your answers individually.
+
+* Example of Using Dot
+#+begin_src dot :file graph1.png
+  graph {
+    size="4,2"
+    bgcolor=transparent
+    node [shape=circle fontname=Monospace]
+    1 -- 2
+    1 -- 3
+    3 -- 4
+    2 -- 4
+    {rank=same 1 3}
+    {rank=same 2 4}
+  }
+#+end_src
+* TODO Answer Three Graph Questions
+** 1
+   Draw the graph whose nodes are a subset of the integers, and whose relation
+   is the extension of the predicate:
+
+#+begin_src elisp :results silent
+  (defun p1 (x y)
+    (and (< (abs x) 20)
+         (< (abs y) 20)
+         (= 1 (+ (* 5 x) (* 7 y)))))
+#+end_src
+
+   Use the dot language to draw this graph. Type in a dot-command source block
+   like the example shown. Make all your links either horizontal or vertical.
+
+#+begin_src dot :file graph1.png
+
+#+end_src
+  graph {
+** 2
+   Draw the graph whose nodes are the twelve divisors of 72, and whose relation
+   is the extension of the predicate:
+
+#+begin_src elisp :results silent
+  (defun p2 (x y)
+    (or (= y (* 2 x)) (= y (* 3 x))))
+#+end_src
+
+   Use the dot language to draw this graph. Type in a dot-command source block
+   like the example shown. Make all your links either horizontal or vertical.
+
+** 3
+   Draw the graph whose nodes are the twelve divisors of one other number, which
+   you must discover, and whose relation is the extension of the same =p2=
+   predicate, and whose shape/structure is the same as the 72-divisors graph.
+
+   Use the dot language to draw this graph. Type in a dot-command source block
+   like the example shown. Make all your links either horizontal or vertical.
